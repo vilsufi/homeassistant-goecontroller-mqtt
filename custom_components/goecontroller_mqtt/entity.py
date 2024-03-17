@@ -28,7 +28,7 @@ class GoEControllerEntity(Entity):
         topic = description.topic if description.topic else description.key
         self._topic = f"{topic_prefix}/{serial_number}/{topic}"
 
-        slug = slugify(self._topic.replace("/", "_"))
+        slug = slugify(f"{topic_prefix}_{serial_number}_{description.key}")
         self.entity_id = f"{description.domain}.{slug}"
 
         parsed_attribute = description.attribute
