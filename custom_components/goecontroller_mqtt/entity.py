@@ -25,7 +25,8 @@ class GoEControllerEntity(Entity):
         topic_prefix = config_entry.data[CONF_TOPIC_PREFIX]
         serial_number = config_entry.data[CONF_SERIAL_NUMBER]
 
-        self._topic = f"{topic_prefix}/{serial_number}/{description.key}"
+        topic = description.topic if description.topic else description.key
+        self._topic = f"{topic_prefix}/{serial_number}/{topic}"
 
         slug = slugify(self._topic.replace("/", "_"))
         self.entity_id = f"{description.domain}.{slug}"

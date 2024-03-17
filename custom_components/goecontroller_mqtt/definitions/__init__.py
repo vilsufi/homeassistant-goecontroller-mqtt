@@ -24,6 +24,7 @@ class GoEControllerEntityDescription(EntityDescription):
     """Generic entity description for go-eController."""
 
     state: Callable | None = None
+    topic: str | None = None
     attribute: str = "0"
     domain: str = "generic"
     disabled: bool | None = None
