@@ -281,7 +281,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_home",
-        topic="ccb",
+        topic="ccp",
         attribute="0",
         name="Power (home)",
         state=extract_ccp,
@@ -293,7 +293,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_grid",
-        topic="ccb",
+        topic="ccp",
         name="Power (grid)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -305,7 +305,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_car",
-        topic="ccb",
+        topic="ccp",
         name="Power (car)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -317,7 +317,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_relay",
-        topic="ccb",
+        topic="ccp",
         name="Power (relay)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -329,7 +329,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_solar",
-        topic="ccb",
+        topic="ccp",
         name="Power (solar)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -341,7 +341,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_battery",
-        topic="ccb",
+        topic="ccp",
         name="Power (battery)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -353,7 +353,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_1",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 1)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -365,7 +365,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_2",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 2)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -377,7 +377,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_3",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 3)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -389,7 +389,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_4",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 4)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -401,7 +401,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_5",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 5)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -413,7 +413,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_6",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 6)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -425,7 +425,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_7",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 7)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -437,7 +437,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_8",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 8)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -449,7 +449,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_9",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 9)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
@@ -461,7 +461,7 @@ SENSORS: tuple[GoEControllerSensorEntityDescription, ...] = (
     ),
     GoEControllerSensorEntityDescription(
         key="ccp_custom_10",
-        topic="ccb",
+        topic="ccp",
         name="Power (custom 10)",
         device_class=SensorDeviceClass.POWER,
         native_unit_of_measurement=UnitOfPower.WATT,
